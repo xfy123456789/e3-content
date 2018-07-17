@@ -15,8 +15,8 @@
 	<dubbo:application name="e3-content"/>
 	<dubbo:registry protocol="zookeeper" address="192.168.25.123:2181"/>	
 	<dubbo:protocol name="dubbo" port="20881"></dubbo:protocol>
-	<dubbo:service interface="cn.e3mall.content.service.ContentCategoryService" ref="contentCategoryServiceImpl" />
-	<dubbo:service interface="cn.e3mall.content.service.ContentService" ref="contentServiceImpl" />
+	<dubbo:service interface="cn.e3mall.content.service.ContentCategoryService" ref="contentCategoryServiceImpl" timeout="600000"/>
+	<dubbo:service interface="cn.e3mall.content.service.ContentService" ref="contentServiceImpl" timeout="600000"/>
 	
 </beans>
 
