@@ -7,6 +7,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>e3-content-service</artifactId>
+	<packaging>war</packaging>
 	<dependencies>
 		<dependency>
 			<groupId>cn.e3mall</groupId>
@@ -72,5 +73,5 @@
 			<artifactId>zkclient</artifactId>
 		</dependency>
 	</dependencies>
-	<packaging>war</packaging>
+	
 </project>
